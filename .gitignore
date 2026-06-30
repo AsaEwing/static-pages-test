@@ -1,0 +1,19 @@
+# 作業系統產生的檔案
+.DS_Store
+Thumbs.db
+
+# 編輯器設定檔
+.vscode/
+.idea/
+
+# Node.js 相關（若之後使用 npm 套件）
+node_modules/
+npm-debug.log*
+
+# 環境變數與機密設定
+.env
+.env.local
+
+# 暫存檔
+*.log
+*.tmp
