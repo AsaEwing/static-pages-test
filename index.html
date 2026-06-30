@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的個人作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__logo">我的作品集</div>
+  <nav class="nav__links">
+    <a href="#work">作品</a>
+    <a href="#about">關於我</a>
+    <a href="#contact">聯絡</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero__text">
+    <p class="hero__tag">PHOTOGRAPHY PORTFOLIO</p>
+    <h1 class="hero__title">用鏡頭捕捉<span class="highlight">每一個</span>瞬間</h1>
+    <p class="hero__desc">嗨，我是一名攝影師，喜歡記錄生活中真實又有溫度的畫面。</p>
+    <a href="#work" class="btn btn--primary">查看作品</a>
+  </div>
+  <div class="hero__image placeholder">Hero 代表作大圖</div>
+</section>
+
+<section class="work" id="work">
+  <h2 class="section__title">作品展示</h2>
+
+  <div class="filter">
+    <button class="filter__btn is-active" data-filter="all">全部</button>
+    <button class="filter__btn" data-filter="portrait">人像</button>
+    <button class="filter__btn" data-filter="landscape">風景</button>
+    <button class="filter__btn" data-filter="street">街拍</button>
+  </div>
+
+  <div class="bento">
+    <div class="bento__item bento__item--large placeholder" data-category="portrait">人像 01</div>
+    <div class="bento__item placeholder" data-category="landscape">風景 01</div>
+    <div class="bento__item placeholder" data-category="street">街拍 01</div>
+    <div class="bento__item bento__item--tall placeholder" data-category="portrait">人像 02</div>
+    <div class="bento__item placeholder" data-category="landscape">風景 02</div>
+    <div class="bento__item bento__item--large placeholder" data-category="street">街拍 02</div>
+    <div class="bento__item placeholder" data-category="portrait">人像 03</div>
+    <div class="bento__item placeholder" data-category="landscape">風景 03</div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about__image placeholder">個人照</div>
+  <div class="about__text">
+    <h2 class="section__title">關於我</h2>
+    <p>我是一名熱愛拍攝生活瞬間的攝影師，喜歡用鏡頭記錄人與人之間的情感連結，以及城市裡轉瞬即逝的光影。</p>
+    <p>拍攝理念：真實，不刻意擺拍；色彩，呈現當下的情緒。</p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section__title">一起合作吧</h2>
+  <a href="mailto:hello@example.com" class="contact__email">hello@example.com</a>
+  <div class="contact__social">
+    <a href="#">Instagram</a>
+    <a href="#">Behance</a>
+    <a href="#">Facebook</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 我的個人作品集</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
